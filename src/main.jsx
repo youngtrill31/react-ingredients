@@ -1,5 +1,5 @@
 var React = require('react');
 var ReactDom = require('react-dom');
-var ListManager = require('./components/ListManager.jsx');
+var Calendar = require('./components/Calendar.jsx');
 
-ReactDom.render(<ListManager title="Ingredients" />, document.getElementById('ingredients'));
+ReactDom.render(<Calendar />, document.getElementById('main'));
